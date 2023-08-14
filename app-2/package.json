@@ -1,0 +1,31 @@
+{
+  "name": "app-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/bootstrap.ts",
+  "scripts": {
+    "start": "export NODE_ENV=development && webpack serve --config ./webpack.config.js",
+    "build": "export NODE_ENV=production && webpack --config ./webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-runtime": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2",
+    "babel-loader": "^9.1.3",
+    "html-webpack-plugin": "^5.5.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
